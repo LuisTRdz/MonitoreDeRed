@@ -1,0 +1,9 @@
+11-08-2025 15:43:50 | RECUPERADO y ESTABLE | viaz-merdb1 | 125.0 ms
+11-08-2025 17:26:11 | RECUPERADO y ESTABLE | viaz-merdb1 | 129.0 ms
+11-08-2025 19:29:40 | LATENCIA alta confirmada | viaz-merdb1 | 152.0 ms
+11-08-2025 19:32:21 | LATENCIA alta confirmada | viaz-merdb1 | 154.0 ms
+11-08-2025 19:48:04 | LATENCIA alta confirmada | viaz-merdb1 | 153.0 ms
+11-08-2025 19:58:54 | LATENCIA alta confirmada | viaz-merdb1 | 163.0 ms
+13-08-2025 14:00:34 | viaz-merdb1 | RECUPERADO y ESTABLE | Latencia: 131.0 ms
+15-08-2025 07:45:37 | viaz-merdb1 | LATENCIA ALTA | Latencia: 302.0 ms
+15-08-2025 07:48:03 | viaz-merdb1 | FIN LATENCIA ALTA | Latencia: 85.0 ms
