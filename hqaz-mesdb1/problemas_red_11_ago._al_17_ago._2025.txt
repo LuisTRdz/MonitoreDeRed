@@ -1,0 +1,5 @@
+12-08-2025 10:28:47 | RECUPERADO y ESTABLE | hqaz-mesdb1 | 68.0 ms
+13-08-2025 13:53:20 | hqaz-mesdb1 | RECUPERADO y ESTABLE | Latencia: 124.0 ms
+13-08-2025 15:03:12 | hqaz-mesdb1 | RECUPERADO y ESTABLE | Latencia: 128.0 ms
+13-08-2025 19:30:40 | hqaz-mesdb1 | CAÍDA | Latencia: N/D
+13-08-2025 19:32:36 | hqaz-mesdb1 | RECUPERADO y ESTABLE | Latencia: 85.0 ms

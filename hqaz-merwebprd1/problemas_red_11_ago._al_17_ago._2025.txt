@@ -1,0 +1,32 @@
+N/D | RECUPERADO con LATENCIA ALTA | hqaz-merwebprd1 | 154.0ms
+N/D | RECUPERADO y ESTABLE | hqaz-merwebprd1
+11-08-2025 14:46:46 | RECUPERADO con LATENCIA ALTA | hqaz-merwebprd1 | 168.0 ms
+11-08-2025 15:08:22 | RECUPERADO y ESTABLE | hqaz-merwebprd1 | 146.0 ms
+11-08-2025 15:22:37 | LATENCIA alta confirmada | hqaz-merwebprd1 | 153.0 ms
+11-08-2025 15:38:11 | RECUPERADO y ESTABLE | hqaz-merwebprd1 | 145.0 ms
+11-08-2025 15:54:50 | RECUPERADO y ESTABLE | hqaz-merwebprd1 | 142.0 ms
+11-08-2025 16:27:25 | RECUPERADO y ESTABLE | hqaz-merwebprd1 | 143.0 ms
+11-08-2025 16:31:51 | RECUPERADO y ESTABLE | hqaz-merwebprd1 | 147.0 ms
+11-08-2025 16:49:53 | RECUPERADO y ESTABLE | hqaz-merwebprd1 | 145.0 ms
+11-08-2025 16:54:56 | LATENCIA alta confirmada | hqaz-merwebprd1 | 173.0 ms
+11-08-2025 17:01:32 | RECUPERADO y ESTABLE | hqaz-merwebprd1 | 146.0 ms
+11-08-2025 17:07:07 | RECUPERADO con LATENCIA ALTA | hqaz-merwebprd1 | 162.0 ms
+11-08-2025 17:26:11 | RECUPERADO y ESTABLE | hqaz-merwebprd1 | 144.0 ms
+11-08-2025 17:35:08 | RECUPERADO y ESTABLE | hqaz-merwebprd1 | 144.0 ms
+11-08-2025 18:01:31 | RECUPERADO y ESTABLE | hqaz-merwebprd1 | 147.0 ms
+11-08-2025 18:09:18 | RECUPERADO y ESTABLE | hqaz-merwebprd1 | 143.0 ms
+11-08-2025 18:13:42 | RECUPERADO y ESTABLE | hqaz-merwebprd1 | 145.0 ms
+11-08-2025 18:22:08 | RECUPERADO y ESTABLE | hqaz-merwebprd1 | 146.0 ms
+11-08-2025 18:45:53 | RECUPERADO con LATENCIA ALTA | hqaz-merwebprd1 | 152.0 ms
+11-08-2025 18:57:32 | LATENCIA alta confirmada | hqaz-merwebprd1 | 156.0 ms
+11-08-2025 19:03:07 | RECUPERADO y ESTABLE | hqaz-merwebprd1 | 145.0 ms
+11-08-2025 19:11:50 | RECUPERADO y ESTABLE | hqaz-merwebprd1 | 149.0 ms
+11-08-2025 19:32:21 | LATENCIA alta confirmada | hqaz-merwebprd1 | 159.0 ms
+11-08-2025 19:37:34 | LATENCIA alta confirmada | hqaz-merwebprd1 | 152.0 ms
+11-08-2025 19:43:01 | LATENCIA alta confirmada | hqaz-merwebprd1 | 151.0 ms
+11-08-2025 19:48:04 | LATENCIA alta confirmada | hqaz-merwebprd1 | 153.0 ms
+11-08-2025 19:53:40 | LATENCIA alta confirmada | hqaz-merwebprd1 | 154.0 ms
+11-08-2025 19:58:54 | LATENCIA alta confirmada | hqaz-merwebprd1 | 154.0 ms
+11-08-2025 20:06:14 | LATENCIA alta confirmada | hqaz-merwebprd1 | 155.0 ms
+11-08-2025 20:16:33 | LATENCIA alta confirmada | hqaz-merwebprd1 | 160.0 ms
+11-08-2025 21:22:07 | LATENCIA alta confirmada | hqaz-merwebprd1 | 158.0 ms

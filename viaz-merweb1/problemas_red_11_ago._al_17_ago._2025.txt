@@ -1,0 +1,21 @@
+N/D | RECUPERADO y ESTABLE | viaz-merweb1
+11-08-2025 16:04:17 | RECUPERADO y ESTABLE | viaz-merweb1 | 93.0 ms
+11-08-2025 18:45:53 | RECUPERADO y ESTABLE | viaz-merweb1 | 144.0 ms
+11-08-2025 19:03:07 | LATENCIA alta confirmada | viaz-merweb1 | 151.0 ms
+11-08-2025 19:37:34 | LATENCIA alta confirmada | viaz-merweb1 | 152.0 ms
+11-08-2025 19:53:40 | LATENCIA alta confirmada | viaz-merweb1 | 161.0 ms
+11-08-2025 19:58:54 | LATENCIA alta confirmada | viaz-merweb1 | 154.0 ms
+11-08-2025 20:11:27 | LATENCIA alta confirmada | viaz-merweb1 | 151.0 ms
+11-08-2025 20:16:33 | LATENCIA alta confirmada | viaz-merweb1 | 156.0 ms
+11-08-2025 20:23:13 | LATENCIA alta confirmada | viaz-merweb1 | 161.0 ms
+11-08-2025 20:31:08 | LATENCIA alta confirmada | viaz-merweb1 | 160.0 ms
+11-08-2025 21:10:48 | LATENCIA alta confirmada | viaz-merweb1 | 163.0 ms
+11-08-2025 21:12:46 | LATENCIA alta confirmada | viaz-merweb1 | 161.0 ms
+13-08-2025 14:54:03 | viaz-merweb1 | RECUPERADO y ESTABLE | Latencia: 133.0 ms
+15-08-2025 00:38:49 | viaz-merweb1 | RECUPERADO y ESTABLE | Latencia: 71.0 ms
+15-08-2025 07:45:37 | viaz-merweb1 | LATENCIA ALTA | Latencia: 325.0 ms
+15-08-2025 07:48:03 | viaz-merweb1 | FIN LATENCIA ALTA | Latencia: 84.0 ms
+15-08-2025 16:47:06 | viaz-merweb1 | TIMEOUT | N/D
+15-08-2025 16:49:41 | viaz-merweb1 | RECUPERADO y ESTABLE | Latencia: 96.0 ms
+15-08-2025 17:06:48 | viaz-merweb1 | TIMEOUT | N/D
+15-08-2025 17:08:45 | viaz-merweb1 | RECUPERADO y ESTABLE | Latencia: 91.0 ms
