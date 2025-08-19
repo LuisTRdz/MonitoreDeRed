@@ -1,1 +1,16 @@
-
+13-08-2025 12:42:12 | google.com | RECUPERADO y ESTABLE | Latencia: 33.0 ms
+13-08-2025 14:16:00 | google.com | RECUPERADO y ESTABLE | Latencia: 87.0 ms
+13-08-2025 15:32:49 | google.com | RECUPERADO y ESTABLE | Latencia: 85.0 ms
+13-08-2025 15:46:59 | google.com | RECUPERADO y ESTABLE | Latencia: 84.0 ms
+13-08-2025 18:49:19 | google.com | CAÍDA | Latencia: N/D
+13-08-2025 18:51:20 | google.com | RECUPERADO y ESTABLE | Latencia: 37.0 ms
+14-08-2025 04:07:42 | google.com | RECUPERADO y ESTABLE | Latencia: 67.0 ms
+14-08-2025 08:59:10 | google.com | RECUPERADO y ESTABLE | Latencia: 66.0 ms
+14-08-2025 09:19:40 | google.com | RECUPERADO y ESTABLE | Latencia: 67.0 ms
+14-08-2025 13:20:39 | google.com | RECUPERADO y ESTABLE | Latencia: 66.0 ms
+14-08-2025 15:30:13 | google.com | RECUPERADO y ESTABLE | Latencia: 66.0 ms
+14-08-2025 20:22:54 | google.com | RECUPERADO y ESTABLE | Latencia: 66.0 ms
+15-08-2025 00:55:55 | google.com | RECUPERADO y ESTABLE | Latencia: 66.0 ms
+15-08-2025 07:59:31 | google.com | RECUPERADO y ESTABLE | Latencia: 64.0 ms
+16-08-2025 00:11:24 | google.com | TIMEOUT | N/D
+16-08-2025 00:13:30 | google.com | RECUPERADO y ESTABLE | Latencia: 24.0 ms
