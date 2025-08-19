@@ -64,7 +64,7 @@ def git_push_auto():
         except subprocess.CalledProcessError:
             # Si falla, probablemente es porque no hay upstream configurado
             # Configura el upstream y hace push
-            subprocess.run(["git", "push", "--set-upstream", "origin", "master"], check=True)
+            subprocess.run(["git", "push", "--set-upstream", "origin", "main"], check=True)
             
         print("[GIT] Push completado correctamente.")
         
