@@ -46,20 +46,30 @@ NO_WINDOW = subprocess.CREATE_NO_WINDOW if platform.system().lower() == "windows
 
 
 # 🔹 Función para hacer commit y push automático
+import subprocess
+
 def git_push_auto():
     try:
+        # Agrega todos los cambios
         subprocess.run(["git", "add", "."], check=True)
-        fecha = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-        subprocess.run(["git", "commit", "-m", f"Auto-update logs {fecha}"], check=True)
-
+        
+        # Hacer commit con mensaje automático
+        from datetime import datetime
+        mensaje = f"Auto-update logs {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}"
+        subprocess.run(["git", "commit", "-m", mensaje], check=True)
+        
+        # Intentar push normal
         try:
             subprocess.run(["git", "push"], check=True)
         except subprocess.CalledProcessError:
+            # Si falla, probablemente es porque no hay upstream configurado
+            # Configura el upstream y hace push
             subprocess.run(["git", "push", "--set-upstream", "origin", "master"], check=True)
-
-        print("[GIT] Cambios enviados a GitHub correctamente.")
-    except Exception as e:
-        print(f"[GIT ERROR] {e}")
+            
+        print("[GIT] Push completado correctamente.")
+        
+    except subprocess.CalledProcessError as e:
+        print(f"[GIT ERROR] Ocurrió un error: {e}")
 
 
 def asegurar_directorio(nombre_servidor):
