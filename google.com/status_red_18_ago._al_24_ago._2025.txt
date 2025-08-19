@@ -224,3 +224,5 @@
 18-08-2025 13:15:16 | google.com | En línea | Latencia: 64.0 ms
 18-08-2025 13:16:17 | google.com | En línea | Latencia: 64.0 ms
 19-08-2025 11:22:14 | google.com | En línea | Latencia: 71.0 ms
+19-08-2025 11:25:17 | google.com | En línea | Latencia: 75.0 ms
+19-08-2025 11:26:50 | google.com | En línea | Latencia: 92.0 ms

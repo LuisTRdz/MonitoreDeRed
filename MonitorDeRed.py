@@ -48,12 +48,17 @@ NO_WINDOW = subprocess.CREATE_NO_WINDOW if platform.system().lower() == "windows
 # 🔹 Función para hacer commit y push automático
 def git_push_auto():
     try:
-        fecha = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
         subprocess.run(["git", "add", "."], check=True)
+        fecha = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
         subprocess.run(["git", "commit", "-m", f"Auto-update logs {fecha}"], check=True)
-        subprocess.run(["git", "push"], check=True)
-        print(f"[GIT] Cambios guardados y enviados a GitHub ({fecha})")
-    except subprocess.CalledProcessError as e:
+
+        try:
+            subprocess.run(["git", "push"], check=True)
+        except subprocess.CalledProcessError:
+            subprocess.run(["git", "push", "--set-upstream", "origin", "master"], check=True)
+
+        print("[GIT] Cambios enviados a GitHub correctamente.")
+    except Exception as e:
         print(f"[GIT ERROR] {e}")
 
 
