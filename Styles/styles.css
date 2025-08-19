@@ -1,0 +1,571 @@
+/* (Tu CSS existente...) */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  background: #f5f7fa;
+  color: #333;
+}
+
+h1 {
+  text-align: center;
+  margin: 25px 0 15px;
+  font-weight: 700;
+  color: #2c3e50;
+}
+
+#selector-servidor {
+  display: block;
+  margin: 0 auto 10px;
+  padding: 12px 15px;
+  font-size: 1.1rem;
+  border-radius: 8px;
+  border: 2px solid #27ae60;
+  width: 280px;
+  background: white;
+  transition: border-color 0.3s;
+}
+
+#selector-servidor:focus {
+  outline: none;
+  border-color: #2ecc71;
+  box-shadow: 0 0 6px #2ecc71aa;
+}
+
+#btn-refrescar {
+  display: block;
+  margin: 10px auto 30px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  border-radius: 8px;
+  border: none;
+  background: #27ae60;
+  color: white;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+#btn-refrescar:hover {
+  background: #2ecc71;
+}
+
+.server-section {
+  max-width: 1000px;
+  margin: 0 auto 50px;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 6px 15px rgb(0 0 0 / 0.1);
+  padding: 25px 30px 40px;
+}
+
+.server-section h2 {
+  margin-top: 0;
+  text-transform: uppercase;
+  font-size: 1.6rem;
+  font-weight: 700;
+  text-align: center;
+  color: #34495e;
+  margin-bottom: 20px;
+}
+
+.tab-buttons {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.tab-buttons button {
+  background: transparent;
+  border: 2px solid #27ae60;
+  color: #27ae60;
+  font-weight: 600;
+  font-size: 1rem;
+  padding: 10px 28px;
+  margin: 0 8px;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.tab-buttons button.active,
+.tab-buttons button:hover {
+  background: #27ae60;
+  color: white;
+  box-shadow: 0 4px 8px #27ae60bb;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 30px;
+  font-size: 0.9rem;
+}
+
+thead tr {
+  background-color: #27ae60;
+  color: white;
+  text-align: left;
+}
+
+th,
+td {
+  padding: 10px 12px;
+  border: 1px solid #ddd;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+tbody tr.latencia-alta {
+  background-color: #ffdddd !important;
+  color: #a00;
+  font-weight: 700;
+}
+
+tbody tr.latencia-buena {
+  background-color: #ddffdd !important;
+  color: #090;
+}
+
+#mensaje-cargando,
+#mensaje-error {
+  text-align: center;
+  font-style: italic;
+  margin: 25px 0;
+  font-size: 1rem;
+}
+
+#mensaje-error {
+  color: #e74c3c;
+  font-weight: 700;
+}
+
+canvas {
+  max-width: 100%;
+  height: 300px;
+  margin-bottom: 20px;
+}
+
+.filtros-container {
+  margin-bottom: 15px;
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.filtros-container label {
+  font-weight: 600;
+  color: #2c3e50;
+}
+
+.filtros-container input[type="date"],
+.filtros-container input[type="time"] {
+  padding: 6px 8px;
+  border-radius: 6px;
+  border: 1.8px solid #27ae60;
+  font-size: 1rem;
+}
+
+.filtros-container button.clear-filters {
+  background: #e74c3c;
+  border: none;
+  color: white;
+  cursor: pointer;
+  font-weight: 700;
+  border-radius: 6px;
+  padding: 6px 12px;
+  transition: background 0.3s ease;
+}
+
+.filtros-container button.clear-filters:hover {
+  background: #c0392b;
+}
+
+/* MODO OSCURO ACTIVADO MANUALMENTE */
+body.dark-mode {
+  background: #121212;
+  color: #e0e0e0;
+}
+
+body.dark-mode h1 {
+  color: #f1f1f1;
+}
+
+body.dark-mode #selector-servidor {
+  background: #1e1e1e;
+  color: #e0e0e0;
+  border-color: #2ecc71;
+}
+
+body.dark-mode #selector-servidor:focus {
+  box-shadow: 0 0 6px #2ecc71aa;
+}
+
+body.dark-mode #btn-refrescar {
+  background: #2ecc71;
+  color: #121212;
+}
+
+body.dark-mode #btn-refrescar:hover {
+  background: #27ae60;
+  color: white;
+}
+
+body.dark-mode .server-section {
+  background: #1e1e1e;
+  box-shadow: 0 6px 15px rgba(255, 255, 255, 0.05);
+}
+
+body.dark-mode .server-section h2 {
+  color: #f1f1f1;
+}
+
+body.dark-mode .tab-buttons button {
+  background: transparent;
+  border-color: #2ecc71;
+  color: #2ecc71;
+}
+
+body.dark-mode .tab-buttons button.active,
+body.dark-mode .tab-buttons button:hover {
+  background: #2ecc71;
+  color: #121212;
+}
+
+body.dark-mode table {
+  color: #e0e0e0;
+}
+
+body.dark-mode thead tr {
+  background-color: #2ecc71;
+  color: #121212;
+}
+
+body.dark-mode tbody tr:nth-child(even) {
+  background-color: #1a1a1a;
+}
+
+body.dark-mode tbody tr.latencia-alta {
+  background-color: #661111 !important;
+  color: #ffaaaa;
+}
+
+body.dark-mode tbody tr.latencia-buena {
+  background-color: #113311 !important;
+  color: #aaffaa;
+}
+
+body.dark-mode #mensaje-error {
+  color: #ff6b6b;
+}
+
+body.dark-mode .filtros-container label {
+  color: #e0e0e0;
+}
+
+body.dark-mode .filtros-container input[type="date"],
+body.dark-mode .filtros-container input[type="time"] {
+  background: #1e1e1e;
+  color: #e0e0e0;
+  border-color: #2ecc71;
+}
+
+body.dark-mode .filtros-container button.clear-filters {
+  background: #c0392b;
+}
+
+body.dark-mode .filtros-container button.clear-filters:hover {
+  background: #e74c3c;
+}
+
+#modo-toggle {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  padding: 10px 18px;
+  font-size: 1rem;
+  font-weight: bold;
+  border: 2px solid #27ae60;
+  background-color: white;
+  color: #27ae60;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  z-index: 1000;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+#modo-toggle:hover {
+  background-color: #27ae60;
+  color: white;
+  box-shadow: 0 4px 10px rgba(39, 174, 96, 0.6);
+}
+
+body.dark-mode #modo-toggle {
+  background-color: #1e1e1e;
+  color: #2ecc71;
+  border-color: #2ecc71;
+}
+
+body.dark-mode #modo-toggle:hover {
+  background-color: #2ecc71;
+  color: #121212;
+}
+
+/* Modal por defecto */
+.export-modal {
+  background: #fff;
+  /* fondo claro */
+  color: #333;
+  /* texto oscuro */
+  border-radius: 8px;
+  padding: 20px;
+  min-width: 300px;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Inputs siempre blancos */
+.export-modal input {
+  background: #fff !important;
+  color: #121212 !important;
+}
+
+/* Modo oscuro */
+body.dark-mode .export-modal {
+  background: #1e1e1e;
+  /* fondo oscuro */
+  color: #e0e0e0;
+  /* texto claro */
+}
+
+/* Inputs en modo oscuro siguen blancos */
+body.dark-mode .export-modal input {
+  background: #fff !important;
+  color: #121212 !important;
+}
+
+/* Botones dentro del modal */
+.export-modal button {
+  cursor: pointer;
+  border-radius: 6px;
+  border: none;
+  padding: 6px 12px;
+  transition: background 0.3s;
+}
+
+body.dark-mode .export-modal button#btn-confirm-export {
+  background-color: #4A90E2;
+  color: white;
+}
+
+body.dark-mode .export-modal button#btn-cancel-export {
+  background-color: #ccc;
+  color: #121212;
+}
+
+/* Fondo del modal (modo claro y oscuro ya cubiertos) */
+
+.modal-input {
+  padding: 6px 10px;
+  font-size: 16px;
+  border: 2px solid #ccc;
+  border-radius: 6px;
+  margin-bottom: 8px;
+  background: #fff !important;
+  color: #121212 !important;
+}
+
+/* Botones dentro del modal */
+.modal-btn {
+  padding: 6px 12px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  margin-right: 8px;
+  transition: background 0.3s;
+}
+
+.modal-btn.confirm {
+  background-color: #4A90E2;
+  color: white;
+}
+
+.modal-btn.cancel {
+  background-color: #ccc;
+  color: #121212;
+}
+
+body.dark-mode .modal-btn.cancel {
+  background-color: #ccc;
+  color: #121212;
+}
+
+
+.filtro-input {
+  padding: 6px 10px;
+  font-size: 16px;
+  border: 2px solid #ccc;
+  border-radius: 6px;
+  transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+.filtro-input:focus {
+  border-color: #4A90E2;
+  box-shadow: 0 0 5px rgba(74, 144, 226, 0.5);
+}
+
+.hora-input {
+  width: 70px;
+  text-align: center;
+}
+
+/* Modo oscuro para inputs de filtro */
+body.dark-mode .filtro-input {
+  background: #1e1e1e;
+  color: #e0e0e0;
+  border-color: #2ecc71;
+}
+
+
+.clear-filters {
+  padding: 6px 12px;
+  margin-left: 10px;
+  border-radius: 6px;
+  border: none;
+  background-color: #b71414ff;
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background 0.3s;
+}
+
+.clear-filters:hover {
+  background-color: #a00;
+}
+
+/* Contenedor (opcional, solo si necesitas márgenes específicos) */
+.rango-wrap {
+  margin-left: 12px;
+}
+
+/* Label de rango */
+.rango-label {
+  margin-left: 8px;
+  margin-right: 6px;
+  font-weight: 600;
+}
+
+/* Select del rango */
+.rango-select {
+  padding: 6px 10px;
+  font-size: 16px;
+  border: 2px solid #ccc;
+  border-radius: 6px;
+  background: #fff;
+  color: #121212;
+  transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+.rango-select:focus {
+  border-color: #4A90E2;
+  box-shadow: 0 0 5px rgba(74, 144, 226, 0.5);
+}
+
+/* Modo oscuro */
+body.dark-mode .rango-select {
+  background: #1e1e1e;
+  color: #e0e0e0;
+  border-color: #2ecc71;
+}
+
+body.dark-mode .rango-label {
+  color: #e0e0e0;
+}
+
+/* Contenedor de paginación */
+#paginacion {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  margin-top: 25px;
+  flex-wrap: wrap;
+}
+
+/* Botones de paginación */
+.paginacion-btn {
+  padding: 10px 20px;
+  font-size: 1rem;
+  font-weight: bold;
+  border: 2px solid #27ae60;
+  background-color: white;
+  color: #27ae60;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
+
+.paginacion-btn:hover {
+  background-color: #27ae60;
+  color: white;
+  box-shadow: 0 4px 12px rgba(39, 174, 96, 0.3);
+  transform: scale(1.05);
+}
+
+.paginacion-btn.disabled,
+.paginacion-btn:disabled {
+  opacity: 0.5;
+  pointer-events: none;
+  cursor: not-allowed;
+}
+
+/* Info */
+.paginacion-info {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #2c3e50;
+  margin: 0 10px;
+  /* <--- Esta línea separa los botones */
+
+}
+
+/* Modo oscuro */
+body.dark-mode .paginacion-btn {
+  background-color: #1e1e1e;
+  color: #2ecc71;
+  border-color: #2ecc71;
+  box-shadow: 0 4px 10px rgba(255, 255, 255, 0.05);
+}
+
+body.dark-mode .paginacion-btn:hover {
+  background-color: #2ecc71;
+  color: #121212;
+}
+
+body.dark-mode .paginacion-info {
+  color: #e0e0e0;
+}
+
+@keyframes bounce-click {
+  0% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(0.95);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
+.paginacion-btn:active {
+  animation: bounce-click 0.2s ease;
+}
